@@ -46,8 +46,4 @@ public class Cell {
     public void setLifeTime(int lifeTime) {
         this.lifeTime = lifeTime;
     }
-
-    public byte getProbability() {
-        return probability;
-    }
 }

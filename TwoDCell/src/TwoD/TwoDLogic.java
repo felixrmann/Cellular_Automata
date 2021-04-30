@@ -17,7 +17,6 @@ public class TwoDLogic extends Canvas {
     private GraphicsContext context = getGraphicsContext2D();
     private int size;
     private int pixelSize;
-    private int moves;
     private Cell[][] displayGrid;
     private Cell[][] currCellGrid;
 

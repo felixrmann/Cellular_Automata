@@ -20,9 +20,7 @@ public class TwoD extends Application {
 
         primaryStage.setTitle("2D Automata");
         primaryStage.setScene(new Scene(new Pane(new TwoDLogic(size, pixelSize)), (size * pixelSize), (size * pixelSize)));
-        primaryStage.setOnCloseRequest(event -> {
-            System.exit(0);
-        });
+        primaryStage.setOnCloseRequest(event -> System.exit(0));
         primaryStage.show();
         primaryStage.centerOnScreen();
     }
