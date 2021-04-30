@@ -4,16 +4,16 @@ import javafx.scene.paint.Color;
 
 public enum LifeColors {
 
-    COL10 (Color.rgb(255, 0, 0)),
-    COL9 (Color.rgb(230, 0, 0)),
-    COL8 (Color.rgb(204, 0, 0)),
-    COL7 (Color.rgb(179, 0, 0)),
-    COL6 (Color.rgb(153, 0, 0)),
-    COL5 (Color.rgb(128, 0, 0)),
-    COL4 (Color.rgb(102, 0, 0)),
-    COL3 (Color.rgb(77, 0, 0)),
-    COL2 (Color.rgb(51, 0, 0)),
-    COL1 (Color.rgb(26, 0, 0));
+    COL10 (Color.rgb(206, 40, 127)),
+    COL9 (Color.rgb(185, 34, 126)),
+    COL8 (Color.rgb(164, 30, 124)),
+    COL7 (Color.rgb(143, 27, 121)),
+    COL6 (Color.rgb(122, 25, 116)),
+    COL5 (Color.rgb(100, 23, 111)),
+    COL4 (Color.rgb(79, 22, 104)),
+    COL3 (Color.rgb(57, 20, 96)),
+    COL2 (Color.rgb(33, 17, 87)),
+    COL1 (Color.rgb(0, 14, 77));
 
     private Color rgb;
 

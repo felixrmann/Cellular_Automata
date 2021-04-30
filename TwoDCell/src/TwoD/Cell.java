@@ -10,23 +10,20 @@ public class Cell {
 
     private float value;
     private int lifeTime;
-    private final byte probability;
 
     public Cell(){
         value = 0.0F;
-        probability = 100;
     }
 
-    public Cell(float value, byte probability){
+    public Cell(float value){
         this.value = value;
-        this.probability = probability;
-        if (value == 1.0) lifeTime = 10;
+        if (value == 1.0) lifeTime = 100;
     }
 
     public void setValue(float value) {
         this.value = value;
         if (value == 1.0){
-            lifeTime = 10;
+            lifeTime = 100;
         }
     }
 

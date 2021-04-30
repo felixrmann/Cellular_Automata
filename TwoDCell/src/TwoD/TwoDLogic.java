@@ -35,13 +35,13 @@ public class TwoDLogic extends Canvas {
         for (int y = 0; y < size; y++) {
             for (int x = 0; x < size; x++) {
                 if (y == 1 && x == 1){
-                    currCellGrid[y][x] = new Cell(1.0F, (byte) 100);
-                    displayGrid[y][x] = new Cell(1.0F, (byte) 100);
+                    currCellGrid[y][x] = new Cell(1.0F);
+                    displayGrid[y][x] = new Cell(1.0F);
                 } else {
                     int rand = random.nextInt(8);
                     if (rand == 2){
-                        currCellGrid[y][x] = new Cell(1.0F, (byte) 100);
-                        displayGrid[y][x] = new Cell(1.0F, (byte) 100);
+                        currCellGrid[y][x] = new Cell(1.0F);
+                        displayGrid[y][x] = new Cell(1.0F);
                     } else {
                         currCellGrid[y][x] = new Cell();
                         displayGrid[y][x] = new Cell();
@@ -104,7 +104,7 @@ public class TwoDLogic extends Canvas {
         for (int y = 1; y < displayGrid.length - 1; y++) {
             for (int x = 1; x < displayGrid[y].length - 1; x++) {
                 if (displayGrid[y][x].getValue() != 0.0){
-                    context.setFill(LifeColors.getRgb(displayGrid[y][x].getLifeTime()));
+                    context.setFill(LifeColors.getRgb(displayGrid[y][x].getLifeTime() / 10));
                     context.fillRect(x*pixelSize,y*pixelSize,pixelSize,pixelSize);
                 }
             }
