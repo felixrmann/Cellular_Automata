@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Cellular_Automata.iml" filepath="$PROJECT_DIR$/Cellular_Automata.iml" />
       <module fileurl="file://$PROJECT_DIR$/OneDCell/OneDCell.iml" filepath="$PROJECT_DIR$/OneDCell/OneDCell.iml" />
       <module fileurl="file://$PROJECT_DIR$/TwoDCell/TwoDCell.iml" filepath="$PROJECT_DIR$/TwoDCell/TwoDCell.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TwoDCellBirth/TwoDCellBirth.iml" filepath="$PROJECT_DIR$/TwoDCellBirth/TwoDCellBirth.iml" />
     </modules>
   </component>
 </project>
