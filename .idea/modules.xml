@@ -4,8 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Cellular_Automata.iml" filepath="$PROJECT_DIR$/Cellular_Automata.iml" />
       <module fileurl="file://$PROJECT_DIR$/OneDCell/OneDCell.iml" filepath="$PROJECT_DIR$/OneDCell/OneDCell.iml" />
-      <module fileurl="file://$PROJECT_DIR$/TwoDCell/TwoDCell.iml" filepath="$PROJECT_DIR$/TwoDCell/TwoDCell.iml" />
       <module fileurl="file://$PROJECT_DIR$/TwoDCellBirth/TwoDCellBirth.iml" filepath="$PROJECT_DIR$/TwoDCellBirth/TwoDCellBirth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TwoDCellDecayOT/TwoDCellDecayOT.iml" filepath="$PROJECT_DIR$/TwoDCellDecayOT/TwoDCellDecayOT.iml" />
     </modules>
   </component>
 </project>

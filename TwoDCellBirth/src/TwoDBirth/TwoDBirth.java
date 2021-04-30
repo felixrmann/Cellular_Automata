@@ -15,10 +15,10 @@ public class TwoDBirth extends Application {
 
     @Override
     public void start(Stage primaryStage) {
-        int size = 90;
-        int pixelSize = 10;
+        int size = 200;
+        int pixelSize = 4;
 
-        primaryStage.setTitle("2D Automata");
+        primaryStage.setTitle("2D Automata birth / death");
         primaryStage.setScene(new Scene(new Pane(new TwoDBirthLogic(size, pixelSize)), (size * pixelSize), (size * pixelSize)));
         primaryStage.setOnCloseRequest(event -> System.exit(0));
         primaryStage.show();

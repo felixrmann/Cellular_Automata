@@ -11,15 +11,15 @@ import javafx.stage.Stage;
  * @since 2021-April-29
  */
 
-public class TwoD extends Application {
+public class TwoDDecayOT extends Application {
 
     @Override
     public void start(Stage primaryStage) {
         int size = 90;
         int pixelSize = 10;
 
-        primaryStage.setTitle("2D Automata");
-        primaryStage.setScene(new Scene(new Pane(new TwoDLogic(size, pixelSize)), (size * pixelSize), (size * pixelSize)));
+        primaryStage.setTitle("2D Automata decay over time");
+        primaryStage.setScene(new Scene(new Pane(new TwoDLogicDecayOT(size, pixelSize)), (size * pixelSize), (size * pixelSize)));
         primaryStage.setOnCloseRequest(event -> System.exit(0));
         primaryStage.show();
         primaryStage.centerOnScreen();

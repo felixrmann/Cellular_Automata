@@ -12,7 +12,7 @@ import java.util.Random;
  * @since 2021-April-29
  */
 
-public class TwoDLogic extends Canvas {
+public class TwoDLogicDecayOT extends Canvas {
 
     private GraphicsContext context = getGraphicsContext2D();
     private int size;
@@ -20,7 +20,7 @@ public class TwoDLogic extends Canvas {
     private Cell[][] displayGrid;
     private Cell[][] currCellGrid;
 
-    public TwoDLogic(int size, int pixelSize){
+    public TwoDLogicDecayOT(int size, int pixelSize){
         this.size = size;
         this.pixelSize = pixelSize;
 
